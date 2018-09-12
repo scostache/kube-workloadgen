@@ -13,7 +13,7 @@ Provides simple functionalities:
 - statistics w.r.t. cluster state: queued jobs, jobs waiting for resources, cluster allocation variation over time
 - statistics w.r.t. job runtime: job runtime, delay, time to start pods, number of failed pods
 
-Usage of workloadgen:
+```Usage of workloadgen:
   -completion
     	Enables deletion of job when pods are completed instead of looking at declared runtime
   -kubeconfig string
@@ -43,4 +43,4 @@ Usage of workloadgen:
   -type int
     	type of workload to run: 1 means heterogeneous and 0 means homogeneous
   -v value
-    	log level for V logs
+    	log level for V logs```
