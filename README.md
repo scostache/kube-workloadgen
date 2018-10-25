@@ -1,6 +1,8 @@
 # kube-workloadgen
 Workload generator for Jobs on Kubernetes
 
+To compile: go build -o ${BIN_DIR}/workloadgen .
+
 Provides simple functionalities:
 - submission of different types of resources to Kubernetes cluster
 - all jobs are "dummy" jobs (pods are not doing anything)
